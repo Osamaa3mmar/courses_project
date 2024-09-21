@@ -53,7 +53,7 @@ gap: 30px;
 .menu-icon{
     display: none;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 770px) {
     .navbar-start ul{
         display: none;
     }
