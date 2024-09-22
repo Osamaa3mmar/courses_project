@@ -1,0 +1,52 @@
+.section4 .container{
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 .top-section4{
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+gap: 250px;
+}
+.section4 .top-section4 .start{
+display: flex;
+flex-direction: column;
+font-family: var(--font);
+color: var(--black);
+
+}
+.section4 .top-section4 h2{
+    font-size: 38px;
+    font-weight: 600;
+}
+.section4 .top-section4 p{
+    font-size: 16px;
+
+}
+
+.section4 .view{
+    align-self: flex-end;
+    padding: 14px 20px ;
+    background-color: aqua;
+    width: fit-content;
+    font-family: var(--font);
+    color: var(--black);
+    background-color: var(--white);
+    border-radius:6px ;
+    text-wrap: nowrap;
+}
+
+
+@media screen and (max-width: 770px) {
+.section4 .top-section4{
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.section4 .view{
+    align-self: flex-start;
+  
+}
+}
