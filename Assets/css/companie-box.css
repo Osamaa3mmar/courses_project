@@ -1,0 +1,33 @@
+.section2 .comp-box{
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 120px;
+    flex-wrap: wrap;
+
+}
+.comp-box .comp{
+    padding: 20px 30px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid rgba(128, 128, 128,0.30);
+}
+
+.comp-box .last{
+    border: none;
+}
+@media screen and (max-width: 1090px) {
+.hide-onsize{
+    display: none;
+}
+.comp-box .hide2-onsize{
+    border: none;
+}
+
+
+}
