@@ -34,7 +34,7 @@ color: var(--black);
     font-family: var(--font);
     color: var(--black);
     background-color: var(--white);
-    border-radius:6px ;
+    border-radius:6px;
     text-wrap: nowrap;
 }
 
@@ -49,4 +49,58 @@ color: var(--black);
     align-self: flex-start;
   
 }
+}
+
+.bottom-section4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.bottom-section4 .service-card{
+    background-color: var(--white);
+    font-family: var(--font);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    height: 413px;
+    width: 333px;
+    flex-grow: 1;
+    
+}
+
+.service-card .service-number{
+    font-weight: 700;
+    font-size: 60px;
+    align-self: flex-end;
+flex-grow:1;
+}
+
+.service-description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow:1;
+    text-wrap: wrap;
+}
+.service-description h3{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.service-description p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C4C4D;
+}
+.service-card .img-cont{
+   padding: 14px;
+   height: 54px;
+   align-self: flex-end;
+   border-radius: 6px;
+   background-color:  #FCFCFD;
+    border:1px solid #F1F1F3;
 }
